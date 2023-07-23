@@ -1,3 +1,5 @@
+import Image from 'next/image'
+
 function Experiences() {
   return (
     <>
@@ -10,7 +12,7 @@ function Experiences() {
             </div>
             <div className="w-full flex">
                 <div className="basis-1/6 place-items-center p-3 m-auto">
-                    <img src={"https://companieslogo.com/img/orig/BPAC3.SA.D-8fade1f3.png?t=1654511556"} alt="Your SVG" />
+                    <Image width={100} height={100} src={"https://companieslogo.com/img/orig/BPAC3.SA.D-8fade1f3.png?t=1654511556"} alt="Your SVG" />
                 </div>
                 <div className="basis-5/6">
                     <li>
@@ -31,7 +33,7 @@ function Experiences() {
             </div>
             <div className="w-full flex">
                 <div className="basis-1/6 place-items-center p-3 m-auto">
-                    <img src={"https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Columbia_University_shield.svg/1200px-Columbia_University_shield.svg.png"} alt="Your SVG" />
+                    <Image width={100} height={100} src={"https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Columbia_University_shield.svg/1200px-Columbia_University_shield.svg.png"} alt="Your SVG" />
                 </div>
                 <div className="basis-5/6">
                     <li>
