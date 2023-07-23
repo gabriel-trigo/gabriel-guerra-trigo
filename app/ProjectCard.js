@@ -3,13 +3,10 @@ import Card from 'react-bootstrap/Card';
 
 function ProjectCard(props) {
   return (
-    <Card className="p-1">
+    <Card className="p-1 w-2/3">
       <Card.Body>
         <Card.Title>{props.projectName}</Card.Title>
         <Card.Text>
-          A website to explore academic coauthorship graphs. 
-          Find the shortest paths between any two authors. Made
-          with React, Django, DynamoDB, Semantic Scholar API.
           {props.projectDescription}
         </Card.Text>
         {props.websiteLink !== "" && (

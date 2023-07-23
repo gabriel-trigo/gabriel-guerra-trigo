@@ -48,7 +48,7 @@ export const projects_section = [
             coauthorship graphs. Find the shortest paths \
             between any two authors. Made with React, Flask, \
             and the Semantic Scholar API. (Not hosted yet, \
-            working on it!).",
+            working on it).",
         websiteLink: "", 
         githubLink: "https://github.com/gabriel-trigo/erdos_distance"
     }, 
@@ -65,8 +65,8 @@ export const projects_section = [
     {
         projectTitle: "From Scratch", 
         projectDescription: "Cool code-generated physics educational \
-        animations from my youtube channel (I only have one video so far \
-        though, trying to get time to make more). Made with Manim-Python.",
+        animations from my youtube channel (only has one video, so far trying \
+        find get time to make more). Made with Manim-Python.",
         websiteLink: "https://www.youtube.com/channel/UCE-9gcnLnBjS0qqLxFXkIOw", 
         githubLink: "https://github.com/gabriel-trigo/from_scratch"
     }, 
@@ -76,14 +76,7 @@ export const projects_section = [
             Made with Next.js, React-Bootstrap, Tailwind, hosted with \
             Vercel.",
         websiteLink: "", 
-        githubLink: ""
-    }, 
-    {
-        projectTitle: "HTTP Server", 
-        projectDescription: "An HTTP server made from scratch completely \
-            with C using the Sockets API. Class project for Advanced Programming.",
-        websiteLink: "", 
-        githubLink: ""
+        githubLink: "https://github.com/gabriel-trigo/next-personal-website"
     }, 
 ]
     
