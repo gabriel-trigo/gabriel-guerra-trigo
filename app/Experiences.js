@@ -16,7 +16,7 @@ function Experiences() {
                 </div>
                 <div className="basis-5/6">
                     <li>
-                        Working on a full-stack application used in the bank's
+                        Working on a full-stack application used in the bank&apos;s
                         back office operations to manage a specific type of credit 
                         operations and communicate them to the Brazilian stock 
                         exchange (B3). Resources used: Django, MySQL, React. 
