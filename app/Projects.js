@@ -6,7 +6,7 @@ function Projects() {
       <div className="grid grid-cols-1 gap-2">
         {projects_section.map((el) => {
             return(
-                <ProjectCard projectName={el.projectTitle} 
+                <ProjectCard key= {el.projectTitle} projectName={el.projectTitle} 
                     projectDescription={el.projectDescription} 
                     websiteLink={el.websiteLink} 
                     githubLink={el.githubLink}>
