@@ -11,22 +11,22 @@ function Navbar() {
         </Nav.Link>
       </Nav.Item>
       <Nav.Item>
-        <Nav.Link href="#Education" eventKey="2" title="Item">
+        <Nav.Link href="#Education">
           Education
         </Nav.Link>
       </Nav.Item>
       <Nav.Item>
-        <Nav.Link href="#Experience" eventKey="2" title="Item">
+        <Nav.Link href="#Experience">
           Experience
         </Nav.Link>
       </Nav.Item>
       <Nav.Item>
-        <Nav.Link href="#Projects" eventKey="2" title="Item">
+        <Nav.Link href="#Projects">
           Projects
         </Nav.Link>
       </Nav.Item>
       <Nav.Item>
-        <Nav.Link href="#Contact" eventKey="2" title="Item">
+        <Nav.Link href="#Contact">
           Contact
         </Nav.Link>
       </Nav.Item>
