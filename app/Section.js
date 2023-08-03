@@ -1,7 +1,7 @@
 const Section = (props) => {
     return (
         <>
-            <div className="flex text-gray-800 pb-10">
+            <div className="flex text-gray-800 dark:text-gray-400 pb-10">
                 <div id={props.id} className="basis-1/4">
                     {props.title}
                 </div>

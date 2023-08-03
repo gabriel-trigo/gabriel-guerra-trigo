@@ -19,8 +19,8 @@ function Navbartw() {
     }, [isDarkMode]);
 
   return (
-    <div className="fixed top-0 h-fit inset-x-0
-        bg-zinc-100 border-b border-zinc-300 p-2 z-[10]">
+    <div className="fixed top-0 inset-x-0
+        bg-zinc-100 border-b border-zinc-300 p-2 z-[10] inline-flex h-12">
         <div className="w-1/3 h-full mx-auto items-center 
             justify-between gap-2 flex">
             <a className="no-underline text-gray-500 hover:text-black" 
@@ -31,7 +31,7 @@ function Navbartw() {
                 href="#Experience">Experience</a>
             <a className="no-underline text-gray-500 hover:text-black" 
                 href="#Projects">Projects</a>
-            <button className="bg-green-600 hover:bg-green-700 border border-green-800 px-3 py-1 text-white font-semibold rounded" onClick={toggleDarkMode}>
+            <button className="bg-purple-500 hover:bg-purple-400 border-b-4 border-purple-800 px-3 py-1 text-white font-semibold rounded" onClick={toggleDarkMode}>
                 Dark Mode
             </button>
         </div>
