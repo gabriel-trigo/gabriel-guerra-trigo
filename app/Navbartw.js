@@ -1,6 +1,22 @@
-
+import React, { useState, useEffect } from 'react';
 
 function Navbartw() {
+
+    const [isDarkMode, setIsDarkMode] = useState(false);
+    
+    // Function to toggle dark mode
+    const toggleDarkMode = () => {
+        setIsDarkMode((prevMode) => !prevMode);
+    };
+    
+    // Update dark mode class on <html> element whenever the state changes
+    useEffect(() => {
+        if (isDarkMode) {
+        document.documentElement.classList.add('dark');
+        } else {
+        document.documentElement.classList.remove('dark');
+        }
+    }, [isDarkMode]);
 
   return (
     <div className="fixed top-0 h-fit inset-x-0
@@ -15,6 +31,9 @@ function Navbartw() {
                 href="#Experience">Experience</a>
             <a className="no-underline text-gray-500 hover:text-black" 
                 href="#Projects">Projects</a>
+            <button className="bg-green-600 hover:bg-green-700 border border-green-800 px-3 py-1 text-white font-semibold rounded" onClick={toggleDarkMode}>
+                Dark Mode
+            </button>
         </div>
     </div>
   );
