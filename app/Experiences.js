@@ -12,7 +12,7 @@ function Experiences() {
             </div>
             <div className="w-full flex">
                 <div className="basis-1/6 place-items-center p-3 m-auto">
-                    <Image width={100} height={100} src={"https://companieslogo.com/img/orig/BPAC3.SA.D-8fade1f3.png?t=1654511556"} alt="Your SVG" />
+                    <Image width={100} height={100} src={"https://companieslogo.com/img/orig/BPAC3.SA-077c9a44.png?t=1654511556"} alt="Your SVG" />
                 </div>
                 <div className="basis-5/6">
                     <li>
