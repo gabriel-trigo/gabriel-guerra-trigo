@@ -7,8 +7,11 @@ function Experiences() {
             <div className="w-full">
                 BTG Pactual
             </div>
+            <div>
+                Summer Intern: Technology Division
+            </div>
             <div className="pb-2">
-                Summer Intern: Technology Division (June 2023 — August 2023)
+                (June 2023 — August 2023)
             </div>
             <div className="w-full flex">
                 <div className="basis-1/6 place-items-center p-3 m-auto">
@@ -16,14 +19,17 @@ function Experiences() {
                 </div>
                 <div className="basis-5/6">
                     <li>
-                        Working on a full-stack application used in the bank&apos;s
-                        back office operations to manage a specific type of credit 
-                        operations and communicate them to the Brazilian stock 
-                        exchange. Stack used: Django, MySQL, React. 
+                        Built a full-stack web application used by the bank’s back office to manage a new type of credit operation. 
+                        App implemented features to intake and validate client data, register collateral information with the 
+                        stock exchange, and listen to/match incoming transactions. 
+                        Achieved efficiency gain of 10x in transaction processing speed. 
+                    </li>
+                    <li>
+                        Technology stack used: FastAPI, MySQL, React, and AWS Services (SQS and Lambda). 
                     </li>
                     <li>
                         Implemented automations for data integration and record matching 
-                        related to credit operations with serverless services AWS Glue and Lambda.
+                        for credit operations using cloud services AWS Glue and Lambda.
                     </li>
                 </div> 
             </div>
@@ -32,17 +38,25 @@ function Experiences() {
             <div className="w-full">
                 Columbia University
             </div>
+            <div>
+                Teaching Assistant: UN2801/2802, COMS3203
+            </div>
             <div className="pb-2">
-                Head Teaching Assistant: UN2801/2802 (September 2022 — May 2023)
+                (September 2022 — Present)
             </div>
             <div className="w-full flex">
                 <div className="basis-1/6 place-items-center p-3 m-auto">
                     <Image width={100} height={100} src={"https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Columbia_University_shield.svg/1200px-Columbia_University_shield.svg.png"} alt="Your SVG" />
                 </div>
                 <div className="basis-5/6">
+                    <li>Served as TA for Accelerated Physics I, II [UN2801/2802] (Fall 2022 and Spring 2023) 
+                        under Prof. Norman Christ, 
+                        and as TA for Discrete Math [COMS3203] (Fall 2023) under Prof. Tony Dear.
+                    </li>
                     <li>
-                        Taught 2 recitations per week to a class of ~40 students, 
-                        organized exam review sessions, and graded assignments.
+                        UN2801/2801: taught 2 recitations per week to a class of ~40 students, 
+                        organized exam review sessions, and graded assignments. COMS3023: held recitations 
+                        weekly, managed class discussion board, and graded assignments.
                     </li>
                     <li>
                         Obtained 4.52/5 (Fall 2022) and 4.81/5 (Spring 2023) average 
@@ -56,8 +70,11 @@ function Experiences() {
             <div className="w-full">
                 Voxus
             </div>
+            <div>
+                Intern
+            </div>
             <div className="pb-2">
-                Intern (December 2020 — August 2021, gap year due to covid)
+                (December 2020 — August 2021, gap year due to covid)
             </div>
             <div className="w-full flex">
                 <div className="basis-1/6 place-items-center p-3 m-auto">

@@ -15,7 +15,7 @@ export default function Home() {
     <>
       <Navbartw></Navbartw>
       <main className="grid place-items-center">
-        <div className="w-1/2 text-left relative top-12">
+        <div className="w-[800px] text-left relative top-12">
           <Title ></Title>
           <Section id={"About"} title={about_section.title} 
             description={about_section.description}/>
