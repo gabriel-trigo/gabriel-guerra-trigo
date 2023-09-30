@@ -38,7 +38,65 @@ export const education_section = {
 
 export const experience_section = {
     title: "Experience", 
-    description: "Professional experience"
+    description: "Professional experience", 
+    items: [
+        {
+            company: "BTG Pactual",
+            title: "Summer Intern: Software Engineering",
+            date: "June 2023 — September 2023",
+            logoWidth: 70,
+            logoHeight: 70,
+            logoLink: "https://companieslogo.com/img/orig/BPAC3.SA-077c9a44.png?t=1654511556",
+            bullets: [
+                "Built a full-stack web application used by the bank’s back office to manage a new type of credit operation. \
+                    App implemented features to intake and validate client data, register collateral information with the \
+                    stock exchange, and listen to/match incoming transactions. \
+                    Achieved efficiency gain of 10x in transaction processing speed.", 
+
+                "Technology stack used: FastAPI, MySQL, React, and AWS Services (SQS and Lambda).", 
+
+                "Implemented automations for data integration and record matching \
+                    for credit operations using cloud services AWS Glue and Lambda."
+            ]
+        }, 
+        {
+            company: "Columbia University",
+            title: "Teaching Assistant: UN2801/2802, COMS3203",
+            date: "September 2022 — Present",
+            logoWidth: 70,
+            logoHeight: 70,
+            logoLink: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Columbia_University_shield.svg/1200px-Columbia_University_shield.svg.png",
+            bullets: [
+                "Served as TA for Accelerated Physics I, II [UN2801/2802] (Fall 2022 and Spring 2023) \
+                    under Prof. Norman Christ, and as TA for Discrete Math [COMS3203] (Fall 2023) \
+                    under Prof. Tony Dear.", 
+
+                "UN2801/2801: taught 2 recitations per week to a class of ~40 students, organized \
+                    exam review sessions, and graded assignments. COMS3023: held recitations \
+                    weekly, managed class discussion board, and graded assignments.", 
+
+                "Obtained 4.52/5 (Fall 2022) and 4.81/5 (Spring 2023) average \
+                    scores on end-of-semester anonymous student evaluations. \
+                    See my detailed evaluations for Fall 2022 and Spring 2023."
+            ]
+        }, 
+        {
+            company: "Voxus",
+            title: "Intern",
+            date: "December 2020 — August 2021",
+            logoWidth: 70,
+            logoHeight: 70,
+            logoLink: "https://www.voxus.com.br/img/home/banner-home-dragon.svg",
+            bullets: [
+                "Responsible for developing and maintaining the \
+                    company sales CRM system, adapting it to the \
+                    changes in the sales pipeline.", 
+
+                "Automated an internal dashboard tool to supply managers with live sales data, \
+                    eliminating the need for manual reports."
+            ]
+        }
+    ]
 }
 
 export const projects_section = [
@@ -53,7 +111,7 @@ export const projects_section = [
         githubLink: "https://github.com/gabriel-trigo/erdos_distance"
     }, 
     {
-        projectTitle: "Q-learning Bird", 
+        projectTitle: "Q-learning", 
         projectDescription: "Casual implementation of adapted \
             Q-learning algorithm for continuous state spaces with \
             neural network for Q-value estimation. Try different AI \

@@ -2,13 +2,13 @@
 import Section from './Section'
 import Title from './Title'
 import { about_section, education_section, 
-  experience_section, projects_section } from './text'
+  experience_section } from './text'
 import 'bootstrap/dist/css/bootstrap.css';
 import EduCard from './EduCard';
-import Navbar from './Navbar'
 import Projects from './Projects'
-import Experiences from './Experiences'
 import Navbartw from './Navbartw'
+
+import ExperiencesSection from './Experiences/ExperiencesSection'
 
 export default function Home() {
   return (
@@ -22,9 +22,9 @@ export default function Home() {
           <Section id={"Education"} title={education_section.title} 
             description={<EduCard classes={education_section.classes}></EduCard>}></Section>
           <Section id={"Experience"} title={experience_section.title} 
-            description={<Experiences/>}></Section>
+            description={<ExperiencesSection items={experience_section.items}/>  }></Section>
           <Section id={"Projects"} title={"Projects"} 
-            description={<Projects></Projects>}></Section>      
+            description={<Projects></Projects>}></Section>  
         </div>
       </main>
     </>

@@ -1,38 +1,45 @@
 import Image from 'next/image'
+import Card from 'react-bootstrap/Card';
 
 function Experiences() {
   return (
     <>
         <div className="text-left w-full pb-5">
-            <div className="w-full">
-                BTG Pactual
-            </div>
-            <div>
-                Summer Intern: Technology Division
-            </div>
-            <div className="pb-2">
-                (June 2023 — August 2023)
-            </div>
-            <div className="w-full flex">
-                <div className="basis-1/6 place-items-center p-3 m-auto">
-                    <Image width={100} height={100} src={"https://companieslogo.com/img/orig/BPAC3.SA-077c9a44.png?t=1654511556"} alt="Your SVG" />
-                </div>
-                <div className="basis-5/6">
-                    <li>
-                        Built a full-stack web application used by the bank’s back office to manage a new type of credit operation. 
-                        App implemented features to intake and validate client data, register collateral information with the 
-                        stock exchange, and listen to/match incoming transactions. 
-                        Achieved efficiency gain of 10x in transaction processing speed. 
-                    </li>
-                    <li>
-                        Technology stack used: FastAPI, MySQL, React, and AWS Services (SQS and Lambda). 
-                    </li>
-                    <li>
-                        Implemented automations for data integration and record matching 
-                        for credit operations using cloud services AWS Glue and Lambda.
-                    </li>
-                </div> 
-            </div>
+            <Card className="w-full bg-zinc-200">
+                <Card.Body>
+                    <div className="flex">
+                        <div className="basis-5/6">
+                            <Card.Title>
+                                BTG Pactual
+                            </Card.Title>
+                            <Card.Subtitle className="mb-2 text-muted">
+                                Summer Intern: Software Engineering
+                            </Card.Subtitle>
+                            <Card.Subtitle className="mb-2 text-muted">
+                                June 2023 — August 2023
+                            </Card.Subtitle>
+                        </div>
+                        <div className="flex basis-1/6 items-center">
+                            <Image width={70} height={70} src={"https://companieslogo.com/img/orig/BPAC3.SA-077c9a44.png?t=1654511556"} alt="Your SVG" />
+                        </div>
+                    </div>
+                    <div className="text-sm">
+                        <li>
+                            Built a full-stack web application used by the bank’s back office to manage a new type of credit operation. 
+                            App implemented features to intake and validate client data, register collateral information with the 
+                            stock exchange, and listen to/match incoming transactions. 
+                            Achieved efficiency gain of 10x in transaction processing speed. 
+                        </li>
+                        <li>
+                            Technology stack used: FastAPI, MySQL, React, and AWS Services (SQS and Lambda). 
+                        </li>
+                        <li>
+                            Implemented automations for data integration and record matching 
+                            for credit operations using cloud services AWS Glue and Lambda.
+                        </li>
+                    </div>
+                </Card.Body>
+            </Card>
         </div>
         <div className="text-left w-full pb-5">
             <div className="w-full">
