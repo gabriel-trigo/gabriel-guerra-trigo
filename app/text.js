@@ -1,3 +1,5 @@
+import ReviewsBullet from "./Experiences/ReviewsBullet"
+
 export const about_section = {
     title: "About",
     description: "Hi! Welcome to my personal website. \
@@ -8,32 +10,19 @@ export const about_section = {
 }
 
 export const education_section = {
-    title: "Education", 
-    classes: {
-        "semester_1": {
-            "Intro Comp. Science": null, 
-            "Multivariable Calculus": null
-        }, 
-
-        "semester_2": {
-            "Data Structures": null, 
-            "Comp. Linear Algebra": null
-        }, 
-
-        "semester_3": {
-            "Analysis of Algorithms": null, 
-            "Advanced Programming": null, 
-            "Discrete Math": null, 
-            "Probability": null
-        }, 
-
-        "semester_4": {
-            "Advanced Algorithms": null, 
-            "Artificial Intelligence": null, 
-            "Computer Science Theory": null, 
-            "Statistical Inference": null
+    title: "Education",
+    items: [
+        {
+            institution: "Columbia University",
+            graduation: "Expected Graduation: May 2025",
+            field: "Major: Computer Science",
+            grade: "GPA: 4.0/4.0",
+            logoHeight: 70,
+            logoWidth: 70,
+            logoLink: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Columbia_University_shield.svg/1200px-Columbia_University_shield.svg.png",
+            rest: "a"
         }
-    }
+    ]
 }
 
 export const experience_section = {
@@ -75,9 +64,7 @@ export const experience_section = {
                     exam review sessions, and graded assignments. COMS3023: held recitations \
                     weekly, managed class discussion board, and graded assignments.", 
 
-                "Obtained 4.52/5 (Fall 2022) and 4.81/5 (Spring 2023) average \
-                    scores on end-of-semester anonymous student evaluations. \
-                    See my detailed evaluations for Fall 2022 and Spring 2023."
+                <ReviewsBullet/>
             ]
         }, 
         {

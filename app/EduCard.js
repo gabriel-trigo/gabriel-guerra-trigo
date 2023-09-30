@@ -1,14 +1,30 @@
 import Table from 'react-bootstrap/Table';
 import Card from 'react-bootstrap/Card';
+import Image from 'next/image';
 
 function EduCard(props) {
   return (
     <Card className="w-full bg-zinc-200">
       <Card.Body>
-        <Card.Title>Columbia University</Card.Title>
-        <Card.Subtitle className="mb-2 text-muted">Expected Graduation: May 2025</Card.Subtitle>
-        <Card.Subtitle className="mb-2 text-muted">Major: Computer Science</Card.Subtitle>
-        <Card.Subtitle className="mb-2 text-muted">GPA: 4.0/4.0</Card.Subtitle>
+        <div className="flex">
+          <div className="basis-5/6">
+            <Card.Title>
+                {"Columbia University"}
+            </Card.Title>
+            <Card.Subtitle className="mb-2 text-muted">
+              {"Expected Graduation: May 2025"}
+            </Card.Subtitle>
+            <Card.Subtitle className="mb-2 text-muted">
+              {"Major: Computer Science"}
+            </Card.Subtitle>
+            <Card.Subtitle className="mb-2 text-muted">
+              {"GPA: 4.0/4.0"}
+            </Card.Subtitle>
+          </div>
+          <div className="flex basis-1/6 items-center">
+            <Image width={70} height={70} src={"https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Columbia_University_shield.svg/1200px-Columbia_University_shield.svg.png"} alt="Your SVG" />
+          </div>
+        </div>
         <Table bordered size="sm" className="text-center table-fixed">
           <thead className="text-sm">
             <tr>

@@ -6,8 +6,8 @@ function ProjectCard(props) {
     <Card className="p-1">
       <Card.Body>
         <Card.Title>{props.projectName}</Card.Title>
-        <div>
-        {props.projectDescription}
+        <div className="text-sm">
+          {props.projectDescription}
         </div>
         {props.websiteLink !== "" && (
           <Card.Link className="bottom-0" href={props.websiteLink}>
