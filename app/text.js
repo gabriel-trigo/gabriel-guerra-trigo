@@ -64,7 +64,7 @@ export const experience_section = {
                     exam review sessions, and graded assignments. COMS3023: held recitations \
                     weekly, managed class discussion board, and graded assignments.", 
 
-                <ReviewsBullet/>
+                <ReviewsBullet key={"placeholder"}/>
             ]
         }, 
         {
