@@ -13,6 +13,7 @@ const ExperiencesSection = (props) => {
                     logoHeight={el.logoHeight}
                     logoLink={el.logoLink}
                     rest={el.rest}
+                    key={el.institution}
                 />
             })}
         </>
