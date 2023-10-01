@@ -25,7 +25,7 @@ const ExperienceCard = (props) => {
                             </div>
                         </div>
                         <div className="text-sm">
-                            {props.bullets.map((el) => <Bullet text={el}/>)}
+                            {props.bullets.map((el) => <Bullet key={el} text={el}/>)}
                         </div>
                     </Card.Body>
                 </Card>

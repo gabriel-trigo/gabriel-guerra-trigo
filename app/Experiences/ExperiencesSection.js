@@ -12,6 +12,7 @@ const ExperiencesSection = (props) => {
                     logoHeight={el.logoHeight}
                     logoLink={el.logoLink}
                     bullets={el.bullets}
+                    key= {el.company}
                 />
             })}
         </>
