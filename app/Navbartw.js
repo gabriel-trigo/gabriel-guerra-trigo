@@ -36,7 +36,7 @@ function Navbartw() {
             <a className="no-underline text-gray-500 hover:text-black
                 dark:text-gray-300 dark:hover:text-gray-100"  
                 href="#Projects">Projects</a>
-            <button className="bg-purple-500 hover:bg-purple-400 border-b-4 border-purple-800 px-3 py-1 text-white font-semibold rounded" onClick={toggleDarkMode}>
+            <button className="bg-purple-500 hover:bg-purple-400 px-3 py-1 text-white font-semibold rounded-sm" onClick={toggleDarkMode}>
                 Dark Mode
             </button>
         </div>

@@ -1,4 +1,4 @@
-import ReviewsBullet from "./Experiences/ReviewsBullet"
+import { ReviewsBullet, ReviewsBulletSpectator } from "./Experiences/ReviewsBullet"
 
 export const about_section = {
     title: "About",
@@ -37,24 +37,36 @@ export const experience_section = {
             logoHeight: 70,
             logoLink: "https://companieslogo.com/img/orig/BPAC3.SA-077c9a44.png?t=1654511556",
             bullets: [
-                "Built a full-stack web application used by the bank’s back office to manage a new type of credit operation. \
+                "Internship project: a full-stack web application used by the bank’s back office to manage a new type of credit operation. \
                     App implemented features to intake and validate client data, register collateral information with the \
                     stock exchange, and listen to/match incoming transactions. \
                     Achieved efficiency gain of 10x in transaction processing speed.", 
 
-                "Technology stack used: FastAPI, MySQL, React, and AWS Services (SQS and Lambda).", 
-
                 "Implemented automations for data integration and record matching \
-                    for credit operations using cloud services AWS Glue and Lambda."
+                    for credit operations using cloud services AWS Glue and Lambda.",
+
+                "Technology stack used: FastAPI, MySQL, React, and AWS Services (SQS and Lambda).", 
+            ]
+        }, 
+        {
+            company: "Columbia Spectator",
+            title: "Associate Developer",
+            date: "September 2023 — Present",
+            logoWidth: 300,
+            logoHeight: 70,
+            logoLink: "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/ZKALKJLFQFECNGLNTICSJUMFF4.png",
+            bullets: [
+                <ReviewsBulletSpectator key={"placeholder"}/>, 
+                "Technology stack used: Flask, MySQL, React, Node.js",
             ]
         }, 
         {
             company: "Columbia University",
             title: "Teaching Assistant: UN2801/2802, COMS3203",
             date: "September 2022 — Present",
-            logoWidth: 70,
-            logoHeight: 70,
-            logoLink: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Columbia_University_shield.svg/1200px-Columbia_University_shield.svg.png",
+            logoWidth: 100,
+            logoHeight: 100,
+            logoLink: "https://images.e-flux-systems.com/Columbia_University_shield.png?w=2000",
             bullets: [
                 "Served as TA for Accelerated Physics I, II [UN2801/2802] (Fall 2022 and Spring 2023) \
                     under Prof. Norman Christ, and as TA for Discrete Math [COMS3203] (Fall 2023) \
@@ -63,10 +75,10 @@ export const experience_section = {
                 "UN2801/2801: taught 2 recitations per week to a class of ~40 students, organized \
                     exam review sessions, and graded assignments. COMS3023: held recitations \
                     weekly, managed class discussion board, and graded assignments.", 
-
                 <ReviewsBullet key={"placeholder"}/>
             ]
-        }, 
+        },
+        /*
         {
             company: "Voxus",
             title: "Intern",
@@ -83,20 +95,18 @@ export const experience_section = {
                     eliminating the need for manual reports."
             ]
         }
+        */
     ]
 }
 
 export const projects_section = [
     {
-        projectTitle: "Scientific Net Explorer", 
-        projectDescription: "A website to explore academic \
-            coauthorship graphs. Find the shortest paths \
-            between any two authors. Made with React, Flask, \
-            and the Semantic Scholar API. (Not hosted yet, \
-            working on it).",
-        websiteLink: "", 
-        githubLink: "https://github.com/gabriel-trigo/erdos_distance"
-    }, 
+        projectTitle: "semanticscholar", 
+        projectDescription: "Unofficial Python client library for Semantic Scholar APIs. \
+                            (An open-source project that I have contributed to).",
+        websiteLink: "https://pypi.org/project/semanticscholar/", 
+        githubLink: "https://github.com/danielnsilva/semanticscholar"
+    },
     {
         projectTitle: "Q-learning", 
         projectDescription: "Casual implementation of adapted \
@@ -110,10 +120,19 @@ export const projects_section = [
     {
         projectTitle: "From Scratch", 
         projectDescription: "Cool code-generated physics educational \
-        animations from my youtube channel (only has one video, so far trying \
-        find get time to make more). Made with Manim-Python.",
-        websiteLink: "https://www.youtube.com/channel/UCE-9gcnLnBjS0qqLxFXkIOw", 
+        animations from my youtube channel. Made with manim-python.",
+        websiteLink: "https://www.youtube.com/@gabrieltrigo5172/videos", 
         githubLink: "https://github.com/gabriel-trigo/from_scratch"
+    }, 
+    {
+        projectTitle: "Scientific Net Explorer", 
+        projectDescription: "A website to explore academic \
+            coauthorship graphs. Find the shortest paths \
+            between any two authors. Made with React, Flask, \
+            and the Semantic Scholar API. (Not hosted yet, \
+            working on it).",
+        websiteLink: "", 
+        githubLink: "https://github.com/gabriel-trigo/erdos_distance"
     }, 
     {
         projectTitle: "Personal Website", 

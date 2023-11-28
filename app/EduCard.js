@@ -2,14 +2,14 @@ import Table from 'react-bootstrap/Table';
 import Card from 'react-bootstrap/Card';
 import Image from 'next/image';
 
-function EduCard(props) {
+function EduCard() {
   return (
-    <Card className="w-full bg-zinc-200">
+    <Card className="w-full">
       <Card.Body>
         <div className="flex">
           <div className="basis-5/6">
             <Card.Title>
-                {"Columbia University"}
+              {"Columbia University"}
             </Card.Title>
             <Card.Subtitle className="mb-2 text-muted">
               {"Expected Graduation: May 2025"}
@@ -17,12 +17,12 @@ function EduCard(props) {
             <Card.Subtitle className="mb-2 text-muted">
               {"Major: Computer Science"}
             </Card.Subtitle>
-            <Card.Subtitle className="mb-2 text-muted">
+            <Card.Subtitle className="mb-2 text-gray-300 dark:text-white">
               {"GPA: 4.0/4.0"}
             </Card.Subtitle>
           </div>
           <div className="flex basis-1/6 items-center">
-            <Image width={70} height={70} src={"https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Columbia_University_shield.svg/1200px-Columbia_University_shield.svg.png"} alt="Your SVG" />
+            <Image width={100} height={100} src={"https://images.e-flux-systems.com/Columbia_University_shield.png?w=2000"} alt="Your SVG" />
           </div>
         </div>
         <Table bordered size="sm" className="text-center table-fixed">
@@ -67,13 +67,3 @@ function EduCard(props) {
 }
 
 export default EduCard;
-
-/*
-{Object.keys(props.classes).map((el, id) => {
-  return (
-    <grid className="grid grid-cols-1 gap-2 place-items-center">
-      {Object.keys(props.classes[el]).map((name, id) => (<ClassCard class={name}></ClassCard>))}
-    </grid>
-  )
-})}
-*/

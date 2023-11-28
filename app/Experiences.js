@@ -20,7 +20,7 @@ function Experiences() {
                             </Card.Subtitle>
                         </div>
                         <div className="flex basis-1/6 items-center">
-                            <Image width={70} height={70} src={"https://companieslogo.com/img/orig/BPAC3.SA-077c9a44.png?t=1654511556"} alt="Your SVG" />
+                            <Image width={70} height={70} src={"https://companieslogo.com/img/orig/BPAC3.SA-077c9a44.png?t=1654511556"} alt="BTG Pactual Logo" />
                         </div>
                     </div>
                     <div className="text-sm">
@@ -53,10 +53,11 @@ function Experiences() {
             </div>
             <div className="w-full flex">
                 <div className="basis-1/6 place-items-center p-3 m-auto">
-                    <Image width={100} height={100} src={"https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Columbia_University_shield.svg/1200px-Columbia_University_shield.svg.png"} alt="Your SVG" />
+                    <Image width={100} height={100} src={"https://images.e-flux-systems.com/Columbia_University_shield.png?w=2000"} alt="Columbia University Logo" />
                 </div>
                 <div className="basis-5/6">
-                    <li>Served as TA for Accelerated Physics I, II [UN2801/2802] (Fall 2022 and Spring 2023) 
+                    <li>
+                        Served aas TA for Accelerated Physics I, II [UN2801/2802] (Fall 2022 and Spring 2023) 
                         under Prof. Norman Christ, 
                         and as TA for Discrete Math [COMS3203] (Fall 2023) under Prof. Tony Dear.
                     </li>

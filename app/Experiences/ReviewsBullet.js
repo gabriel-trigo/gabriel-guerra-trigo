@@ -8,4 +8,14 @@ const ReviewsBullet = () => {
     )
 }
 
-export default ReviewsBullet;
+const ReviewsBulletSpectator = () => {
+    return (
+        <>
+            Responsible for developing and maintaining Spectator products: 
+            the <a href={"https://www.columbiaspectator.com/"}>Columbia Daily Spectator</a>, 
+            <a href={"https://www.culpa.info/#/"}>Culpa</a>, and <a href={"https://theshaft.info/"}>The Shaft</a>.
+        </>
+    )
+}
+
+export { ReviewsBullet, ReviewsBulletSpectator };
