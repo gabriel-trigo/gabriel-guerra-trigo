@@ -1,17 +1,17 @@
 import './globals.css'
-import { Inter } from 'next/font/google'
-
-const inter = Inter({ subsets: ['latin'] })
+import { meta } from './text/metadata'
 
 export const metadata = {
-  title: 'Gabriel Trigo',
-  description: 'My personal web page.',
+  title: meta.title,
+  description: meta.description
 }
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en" className="">
-      <body className="pt-12 bg-slate-50 dark:bg-black">{children}</body>
+    <html lang="en">
+      <body className="pt-12 bg-slate-50 dark:bg-black">
+        { children }
+      </body>
     </html>
   )
 }

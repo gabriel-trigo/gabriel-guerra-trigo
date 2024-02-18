@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 
-function Navbartw() {
+function Navbar() {
 
     const [isDarkMode, setIsDarkMode] = useState(false);
     
@@ -44,4 +44,4 @@ function Navbartw() {
   );
 }
 
-export default Navbartw;
+export default Navbar;

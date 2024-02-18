@@ -1,5 +1,10 @@
 import { ReviewsBullet, ReviewsBulletSpectator } from "./Experiences/ReviewsBullet"
 
+export const meta = {
+    title: "Gabriel Guerra Trigo",
+    description: "My personal web page."
+}
+
 export const about_section = {
     title: "About",
     description: "Hi! Welcome to my personal website. \
@@ -78,24 +83,6 @@ export const experience_section = {
                 <ReviewsBullet key={"placeholder"}/>
             ]
         },
-        /*
-        {
-            company: "Voxus",
-            title: "Intern",
-            date: "December 2020 — August 2021",
-            logoWidth: 70,
-            logoHeight: 70,
-            logoLink: "https://www.voxus.com.br/img/home/banner-home-dragon.svg",
-            bullets: [
-                "Responsible for developing and maintaining the \
-                    company sales CRM system, adapting it to the \
-                    changes in the sales pipeline.", 
-
-                "Automated an internal dashboard tool to supply managers with live sales data, \
-                    eliminating the need for manual reports."
-            ]
-        }
-        */
     ]
 }
 

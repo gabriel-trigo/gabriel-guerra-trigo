@@ -1,7 +1,7 @@
 const Section = (props) => {
     return (
         <>
-            <div className="flex text-gray-800 dark:text-gray-400 pb-10">
+            <div className="flex pb-10 text-gray-800 dark:text-gray-400">
                 <div id={props.id} className="basis-1/4 text-gray-500">
                     {props.title}
                 </div>
@@ -12,5 +12,4 @@ const Section = (props) => {
         </>
     );
 }
-
 export default Section;
