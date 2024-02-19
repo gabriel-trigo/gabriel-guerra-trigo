@@ -6,7 +6,7 @@ import { meta } from './text/metadata'
 import { about_section, education_section, experience_section } from './text'
 import EduCard from './EduCard';
 import Projects from './Projects'
-import Navbar from './Navbar'
+import Navbar from './components/Navbar/Navbar'
 import ExperiencesSection from './Experiences/ExperiencesSection'
 
 export default function Home() {

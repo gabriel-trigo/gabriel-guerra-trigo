@@ -1,8 +1,8 @@
 const Section = (props) => {
     return (
         <>
-            <div className="flex pb-10 text-gray-800 dark:text-gray-400">
-                <div id={props.id} className="basis-1/4 text-gray-500">
+            <div className="flex pb-10 text-[#fff]">
+                <div id={props.id} className="basis-1/4">
                     {props.title}
                 </div>
                 <div className="basis-3/4">
