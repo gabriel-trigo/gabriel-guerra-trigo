@@ -1,5 +1,6 @@
 'use client'
-import 'bootstrap/dist/css/bootstrap.css';
+import 'bootstrap/dist/css/bootstrap.css'
+import { useState } from 'react'
 import Section from './components/Section'
 import Title from './components/Title'
 import { meta } from './text/metadata'
@@ -10,9 +11,11 @@ import Navbar from './components/Navbar/Navbar'
 import ExperiencesSection from './Experiences/ExperiencesSection'
 
 export default function Home() {
+  const [currSection, setCurrSection] = useState("About")
+
   return (
     <>
-      <Navbar/>
+      <Navbar currSection={ currSection } setCurrSection={ setCurrSection }/>
       <main className="grid place-items-center">
         <div className="w-[800px] text-left relative top-12">
             <Title

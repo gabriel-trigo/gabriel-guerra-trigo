@@ -6,7 +6,7 @@ const ExperienceCard = (props) => {
     return (
         <>
             <div className="text-left w-full pb-5">
-                <Card className="w-full">
+                <Card className="w-full bg-transparent">
                     <Card.Body>
                         <div className="flex">
                             { props.company === "Columbia Spectator" ? (
