@@ -5,7 +5,7 @@ import Section from './components/Section'
 import Title from './components/Title'
 import { meta } from './text/metadata'
 import { about_section, education_section, experience_section } from './text'
-import EduCard from './EduCard';
+import EducationCard from './Education/EducationCard';
 import Projects from './Projects'
 import Navbar from './components/Navbar/Navbar'
 import ExperiencesSection from './Experiences/ExperiencesSection'
@@ -31,7 +31,7 @@ export default function Home() {
             <Section 
                 id={ "Education" } 
                 title={ education_section.title } 
-                description={ <EduCard classes={ education_section.classes }></EduCard> }
+                description={ <EducationCard/> }
             />
 
             <Section 

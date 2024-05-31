@@ -1,11 +1,11 @@
 import Table from 'react-bootstrap/Table'
 import Card from 'react-bootstrap/Card'
 import Image from 'next/image'
-import { education } from './text/education'
+import { education } from '../text/education'
 
 function EduCard() {
     return (
-        <Card className="w-full bg-transparent">
+        <Card className="w-full bg-white">
             <Card.Body>
                 <div className="flex">
                     <div className="basis-5/6">

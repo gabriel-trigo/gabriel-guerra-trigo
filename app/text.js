@@ -1,4 +1,4 @@
-import { ReviewsBullet, ReviewsBulletSpectator } from "./Experiences/ReviewsBullet"
+import { ReviewsBullet, SpectatorBullet } from "./Experiences/ReviewsBullet"
 
 export const meta = {
     title: "Gabriel Guerra Trigo",
@@ -35,8 +35,17 @@ export const experience_section = {
     description: "Professional experience", 
     items: [
         {
+            company: "Amazon",
+            title: "Software Development Engineer Intern",
+            date: "June 2024 - September 2024",
+            logoWidth: 120,
+            logoHeight: 70,
+            logoLink: "https://cdn.logojoy.com/wp-content/uploads/20230629132639/current-logo-600x338.png",
+            bullets: []
+        }, 
+        {
             company: "BTG Pactual",
-            title: "Summer Intern: Software Engineering",
+            title: "Summer Analyst (Software Engineering)",
             date: "June 2023 — September 2023",
             logoWidth: 70,
             logoHeight: 70,
@@ -54,20 +63,8 @@ export const experience_section = {
             ]
         }, 
         {
-            company: "Columbia Spectator",
-            title: "Associate Developer",
-            date: "September 2023 — Present",
-            logoWidth: 300,
-            logoHeight: 70,
-            logoLink: "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/ZKALKJLFQFECNGLNTICSJUMFF4.png",
-            bullets: [
-                <ReviewsBulletSpectator key={"placeholder"}/>, 
-                "Technology stack used: Flask, MySQL, React, Node.js",
-            ]
-        }, 
-        {
             company: "Columbia University",
-            title: "Teaching Assistant: UN2801/2802, COMS3203",
+            title: "Teaching Assistant",
             date: "September 2022 — Present",
             logoWidth: 100,
             logoHeight: 100,
@@ -86,7 +83,40 @@ export const experience_section = {
     ]
 }
 
+export const spec_projects_section = [
+    {
+        projectTitle: "culpa.info", 
+        projectDescription: "Website where students can browse and \
+                            post Columbia Professor and course reviews.",
+        websiteLink: "https://www.culpa.info/#/"
+    },
+    {
+        projectTitle: "theshaft.info", 
+        projectDescription: "Website with information about Columbia \
+                            University dorms and housing lottery.",
+        websiteLink: "https://theshaft.info"
+    },
+    {
+        projectTitle: "Columbia Spectator Special Editions", 
+        projectDescription: "Website where students can browse and \
+                            post Columbia Professor and course reviews.",
+        websiteLink: "https://www.culpa.info/#/"
+    },
+]
+
 export const projects_section = [
+    {
+        projectTitle: "Culpa", 
+        projectDescription: "website where students can browse and \
+                            post Columbia Professor reviews.",
+        websiteLink: "https://www.culpa.info/#/"
+    },
+    {
+        projectTitle: "The Shaft", 
+        projectDescription: "Website with information about Columbia \
+                            University dorms and housing lottery.",
+        websiteLink: "https://theshaft.info"
+    },
     {
         projectTitle: "semanticscholar", 
         projectDescription: "Unofficial Python client library for Semantic Scholar APIs. \
@@ -113,7 +143,7 @@ export const projects_section = [
     }, 
     {
         projectTitle: "Scientific Net Explorer", 
-        projectDescription: "A website to explore academic \
+        projectDescription: "Website to explore academic \
             coauthorship graphs. Find the shortest paths \
             between any two authors. Made with React, Flask, \
             and the Semantic Scholar API. (Not hosted yet, \

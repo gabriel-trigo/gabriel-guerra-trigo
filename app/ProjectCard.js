@@ -3,7 +3,7 @@ import Card from 'react-bootstrap/Card';
 
 function ProjectCard(props) {
   return (
-    <Card className="p-1 bg-dark text-white">
+    <Card className="p-1 bg-white text-gray-500">
       <Card.Body>
         <Card.Title>{props.projectName}</Card.Title>
         <div className="text-sm">

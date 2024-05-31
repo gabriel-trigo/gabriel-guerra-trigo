@@ -5,8 +5,8 @@ import Image from 'next/image';
 const ExperienceCard = (props) => {
     return (
         <>
-            <div className="text-left w-full pb-5">
-                <Card className="w-full bg-transparent">
+            <div className="text-left w-full pb-3">
+                <Card className="w-full bg-white">
                     <Card.Body>
                         <div className="flex">
                             { props.company === "Columbia Spectator" ? (
@@ -46,7 +46,7 @@ const ExperienceCard = (props) => {
                             )}
                         </div>
                         <div className="text-sm">
-                            {props.bullets.map((el) => <Bullet key={el} text={el}/>)}
+                            {props.bullets.map((el) => false ? <Bullet key={el} text={el}/> : <></>)}
                         </div>
                     </Card.Body>
                 </Card>

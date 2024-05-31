@@ -8,7 +8,7 @@ const ReviewsBullet = () => {
     )
 }
 
-const ReviewsBulletSpectator = () => {
+const SpectatorBullet = () => {
     return (
         <>
             Responsible for developing and maintaining Spectator products: 
@@ -18,4 +18,4 @@ const ReviewsBulletSpectator = () => {
     )
 }
 
-export { ReviewsBullet, ReviewsBulletSpectator };
+export { ReviewsBullet, SpectatorBullet };
