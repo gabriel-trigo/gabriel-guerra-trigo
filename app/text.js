@@ -1,4 +1,4 @@
-import { ReviewsBullet, SpectatorBullet } from "./Experiences/ReviewsBullet"
+import { ReviewsBullet, SpectatorBullet } from "./experiences/ReviewsBullet"
 
 export const meta = {
     title: "Gabriel Guerra Trigo",
@@ -12,6 +12,16 @@ export const about_section = {
                 studying Computer Science at Columbia University. This website \
                 is meant to work as a resume, as well as an attempt to learn \
                 web development and document projects.", 
+}
+
+export const contact_section = {
+    title: "Contact",
+    description: 
+        <>
+            <a href="mailto:gabrielguerratrigo20@gmail.com">gabrielguerratrigo20@gmail.com</a><br />
+            <a href="https://github.com/gabriel-trigo">Github</a><br />
+            <a href="https://www.linkedin.com/in/gabriel-trigo-506a641a7/">LinkedIn</a>
+        </>
 }
 
 export const education_section = {
@@ -88,19 +98,55 @@ export const spec_projects_section = [
         projectTitle: "culpa.info", 
         projectDescription: "Website where students can browse and \
                             post Columbia Professor and course reviews.",
-        websiteLink: "https://www.culpa.info/#/"
+        websiteLink: "https://www.culpa.info/#/",
+        githubLink: ""
     },
     {
         projectTitle: "theshaft.info", 
         projectDescription: "Website with information about Columbia \
                             University dorms and housing lottery.",
-        websiteLink: "https://theshaft.info"
+        websiteLink: "https://theshaft.info",
+        githubLink: "",
     },
     {
         projectTitle: "Columbia Spectator Special Editions", 
-        projectDescription: "Website where students can browse and \
-                            post Columbia Professor and course reviews.",
-        websiteLink: "https://www.culpa.info/#/"
+        projectDescription: <>
+            {"Comemorative Editions of the Columbia Spectator. I worked in the "} 
+            <a href="https://homecoming2023.columbiaspectator.com">Homecoming 2023</a> 
+            {" and "}
+            <a href="https://bhm2024.columbiaspectator.com">Black History Month 2024</a>
+            { " editions."} 
+            </>,
+        websiteLink: "https://www.columbiaspectator.com/se/",
+        githubLink: ""
+    },
+]
+
+
+export const personal_projects_section = [
+    {
+        projectTitle: "Personal Website", 
+        projectDescription: "The code for this own website. \
+                            Made with Next.js and hosted with Vercel.",
+        websiteLink: "https://gabriel-trigo.vercel.app/",
+        githubLink: "https://github.com/gabriel-trigo/gabriel-guerra-trigo"
+    },
+    {
+        projectTitle: "From Scratch", 
+        projectDescription: "Cool educational math/physics animations \
+                            for my youtube channel made with manim.",
+        websiteLink: "https://www.youtube.com/@gabrieltrigo5172/videos",
+        githubLink: "https://github.com/gabriel-trigo/from_scratch"
+    },
+]
+
+export const open_source_projects_section = [
+    {
+        projectTitle: "semanticscholar", 
+        projectDescription: "A python API client wrapper for the Semantic \
+                            Scholar API.",
+        websiteLink: "https://pypi.org/project/semanticscholar/",
+        githubLink: "https://github.com/danielnsilva/semanticscholar"
     },
 ]
 

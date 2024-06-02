@@ -1,9 +1,8 @@
 import './globals.css'
-import { meta } from './text/metadata'
 
 export const metadata = {
-  title: meta.title,
-  description: meta.description
+  title: "Gabriel Guerra Trigo",
+  description: "Personal Website"
 }
 
 export default function RootLayout({ children }) {

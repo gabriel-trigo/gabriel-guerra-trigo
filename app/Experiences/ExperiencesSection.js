@@ -13,6 +13,7 @@ const ExperiencesSection = (props) => {
                     logoLink={el.logoLink}
                     bullets={el.bullets}
                     key={el.company}
+                    id={el.company}
                 />
             })}
         </>

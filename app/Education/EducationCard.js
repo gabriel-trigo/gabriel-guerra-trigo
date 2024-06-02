@@ -1,7 +1,7 @@
 import Table from 'react-bootstrap/Table'
 import Card from 'react-bootstrap/Card'
 import Image from 'next/image'
-import { education } from '../text/education'
+import { education_section } from '../text'
 
 function EduCard() {
     return (
@@ -11,20 +11,20 @@ function EduCard() {
                     <div className="basis-5/6">
 
                         <Card.Title>
-                        { `${ education.institution } [GPA: ${ education.grade }]` }
+                        { `${ education_section.institution } [GPA: ${ education_section.grade }]` }
                         </Card.Title>
 
                         <Card.Subtitle className="mb-2 text-muted">
-                        { `Major: ${ education.major }` }
+                        { `Major: ${ education_section.major }` }
                         </Card.Subtitle>
 
                         <Card.Subtitle className="mb-2 text-muted">
-                        { `Expected Graduation: ${ education.graduation }` }
+                        { `Expected Graduation: ${ education_section.graduation }` }
                         </Card.Subtitle>
                     </div>
 
                     <div className="flex basis-1/6 items-center">
-                        <Image width={ education.logoWidth } height={ education.logoHeight } src={ education.logoLink }/>
+                        <Image width={ education_section.logoWidth } height={ education_section.logoHeight } src={ education_section.logoLink }/>
                     </div>
 
                 </div>

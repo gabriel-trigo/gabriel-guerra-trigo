@@ -3,12 +3,11 @@ import 'bootstrap/dist/css/bootstrap.css'
 import { useState } from 'react'
 import Section from './components/Section'
 import Title from './components/Title'
-import { meta } from './text/metadata'
-import { about_section, education_section, experience_section } from './text'
-import EducationCard from './Education/EducationCard';
-import Projects from './Projects'
+import { about_section, contact_section, education_section, experience_section } from './text'
+import EducationCard from './education/EducationCard';
+import Projects from './projects/Projects'
 import Navbar from './components/Navbar/Navbar'
-import ExperiencesSection from './Experiences/ExperiencesSection'
+import ExperiencesSection from './experiences/ExperiencesSection'
 
 export default function Home() {
   const [currSection, setCurrSection] = useState("About")
@@ -19,13 +18,19 @@ export default function Home() {
       <main className="grid place-items-center">
         <div className="w-[800px] text-left relative top-12">
             <Title
-                title={ meta.title }
+                title={ "Gabriel Guerra Trigo" }
             />
 
             <Section 
                 id={ "About" } 
                 title={ about_section.title } 
                 description={ about_section.description }
+            />
+
+            <Section 
+                id={ "Contact" } 
+                title={ contact_section.title } 
+                description={ contact_section.description }
             />
 
             <Section 
