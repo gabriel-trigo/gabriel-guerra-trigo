@@ -4,7 +4,7 @@ import { useState } from 'react'
 import Section from './components/Section'
 import Title from './components/Title'
 import { about_section, contact_section, education_section, experience_section } from './text'
-import EducationCard from './education/EducationCard';
+import EducationCard from '/app/education/EducationCard';
 import Projects from './projects/Projects'
 import Navbar from './components/Navbar/Navbar'
 import ExperiencesSection from './experiences/ExperiencesSection'
