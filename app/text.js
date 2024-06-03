@@ -1,4 +1,4 @@
-import { ReviewsBullet, SpectatorBullet } from "./experiences/ReviewsBullet"
+import { ReviewsBullet, SpectatorBullet } from "./ReviewsBullet"
 
 export const meta = {
     title: "Gabriel Guerra Trigo",

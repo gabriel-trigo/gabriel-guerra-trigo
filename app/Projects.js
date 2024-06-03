@@ -3,7 +3,7 @@ import {
   spec_projects_section, 
   open_source_projects_section, 
   personal_projects_section 
-} from '../text';
+} from './text';
 
 function Projects() {
     return (

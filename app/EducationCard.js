@@ -1,7 +1,7 @@
 import Table from 'react-bootstrap/Table'
 import Card from 'react-bootstrap/Card'
 import Image from 'next/image'
-import { education_section } from '../text'
+import { education_section } from './text'
 
 function EduCard() {
     return (
