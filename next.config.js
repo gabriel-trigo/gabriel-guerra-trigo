@@ -13,7 +13,8 @@ module.exports = {
         "images.e-flux-systems.com", 
         "arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com", 
         "www.google.com", 
-        "cdn.logojoy.com"
+        "cdn.logojoy.com",
+        "seeklogo.com"
       ]
     },
   }

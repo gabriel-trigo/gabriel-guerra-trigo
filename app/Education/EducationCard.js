@@ -19,7 +19,7 @@ function EduCard() {
                         </Card.Subtitle>
 
                         <Card.Subtitle className="mb-2 text-muted">
-                        { `Expected Graduation: ${ education_section.graduation }` }
+                        { education_section.graduation }
                         </Card.Subtitle>
                     </div>
 

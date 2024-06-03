@@ -1,4 +1,3 @@
-import Bullet from './Bullet';
 import Card from 'react-bootstrap/Card';
 import Image from 'next/image';
 
@@ -44,9 +43,6 @@ const ExperienceCard = (props) => {
                                     </div>
                                 </>
                             )}
-                        </div>
-                        <div className="text-sm">
-                            {props.bullets.map((el) => false ? <Bullet key={el} text={el}/> : <></>)}
                         </div>
                     </Card.Body>
                 </Card>

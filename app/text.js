@@ -26,18 +26,13 @@ export const contact_section = {
 
 export const education_section = {
     title: "Education",
-    items: [
-        {
-            institution: "Columbia University",
-            graduation: "Expected Graduation: May 2025",
-            field: "Major: Computer Science",
-            grade: "GPA: 4.0/4.0",
-            logoHeight: 70,
-            logoWidth: 70,
-            logoLink: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Columbia_University_shield.svg/1200px-Columbia_University_shield.svg.png",
-            rest: "a"
-        }
-    ]
+    institution: "Columbia University",
+    graduation: "Expected Graduation: May 2025",
+    major: "Computer Science",
+    grade: "GPA: 4.0/4.0",
+    logoHeight: 70,
+    logoWidth: 70,
+    logoLink: "https://seeklogo.com/images/C/columbia-university-logo-84C4D6BE0B-seeklogo.com.png",
 }
 
 export const experience_section = {
