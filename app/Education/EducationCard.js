@@ -24,7 +24,7 @@ function EduCard() {
                     </div>
 
                     <div className="flex basis-1/6 items-center">
-                        <Image width={ education_section.logoWidth } height={ education_section.logoHeight } src={ education_section.logoLink }/>
+                        <Image width={ education_section.logoWidth } height={ education_section.logoHeight } src={ education_section.logoLink } alt=""/>
                     </div>
 
                 </div>
